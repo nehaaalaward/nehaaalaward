@@ -33,6 +33,8 @@ body {
   font-size: 16px;
   font-family: CraftworkGrotesk;
   background-color: #ffc133;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
@@ -58,6 +60,7 @@ main {
 .hero .description {
   font-size: 1.5rem;
   margin-top: 16px;
+  font-weight: 500;
 }
 
 .hero .image {
